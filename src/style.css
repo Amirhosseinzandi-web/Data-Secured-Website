@@ -1,0 +1,24 @@
+.list{
+    width: 80%;
+    /* height: 200px; */
+    background-color: rgba(128, 128, 128, 0.438);
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    display: none ;
+}
+.block{
+    display: block;
+}
+.temp{
+    height: fit-content;
+}
+.total{
+    position: fixed;
+    top: 10px;
+    left: 50%;
+}
+.none{
+    pointer-events: none;
+    user-select: none;
+}
