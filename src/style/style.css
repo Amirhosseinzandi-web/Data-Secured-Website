@@ -264,12 +264,14 @@ form > div:nth-of-type(1) i {
   background-image: url("/src/assets/recovery-bg.png");
   background-size: cover;
   position: relative;
+  background-position: 90% 100%;
 }
 .cloud {
   min-height: 100vh;
   background-image: url("/src/assets/cloud-bg.png");
   background-size: cover;
   position: relative;
+  background-position: 60% 100%;
 }
 .contact {
   min-height: 100vh;
