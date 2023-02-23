@@ -25,8 +25,11 @@ header {
   position: fixed;
   z-index: 999;
   top: 0;
-  background-color: rgba(0, 0, 0, 0.336);
-  backdrop-filter: blur(7.5px);
+  transition: 0.4s ease-in;
+  -webkit-transition: 0.4s ease-in;
+  -moz-transition: 0.4s ease-in;
+  -ms-transition: 0.4s ease-in;
+  -o-transition: 0.4s ease-in;
 }
 .logo > i {
   display: inline-flex;

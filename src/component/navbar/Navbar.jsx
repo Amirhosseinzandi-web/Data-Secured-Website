@@ -11,6 +11,17 @@ function Navbar() {
         setOn(!on)
     }
 
+    window.addEventListener("scroll" , ()=>{
+        let currentScroll = document.documentElement.scrollTop;
+        // console.log(currentScroll);
+        if(currentScroll>50){
+            document.querySelector("header").style.backgroundColor = ` rgba(0, 0, 0, 0.336) `
+            document.querySelector("header").style.backdropFilter = ` blur(7.5px) `
+        }else{
+            document.querySelector("header").style.backgroundColor = ` unset `
+            document.querySelector("header").style.backdropFilter = ` unset `
+        }
+    })
   return (
     <header className='col-12'>
         <section className='d-flex justify-content-between px-lg-4 container-xxl'>

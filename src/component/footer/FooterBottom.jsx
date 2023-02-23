@@ -49,15 +49,15 @@ function FooterBottom() {
                 <h3 className='mx-auto'>JOIN OUR TEAM</h3>
                 <div className='my-3'>
                 <input type="email" id='mail' placeholder='Enter your email' />
-                <i class="bi bi-envelope"></i>
+                <i className="bi bi-envelope"></i>
                 </div>
                 
                 <div className='social-group d-flex flex-wrap'>
-                    <div><i class="bi bi-instagram"></i></div>
-                    <div><i class="bi bi-telegram"></i></div>
-                    <div><i class="bi bi-facebook"></i></div>
-                    <div><i class="bi bi-linkedin"></i></div>
-                    <div><i class="bi bi-github"></i></div>
+                    <div><i className="bi bi-instagram"></i></div>
+                    <div><i className="bi bi-telegram"></i></div>
+                    <div><i className="bi bi-facebook"></i></div>
+                    <div><i className="bi bi-linkedin"></i></div>
+                    <div><i className="bi bi-github"></i></div>
                 </div>
             </form>
         </div>

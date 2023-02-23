@@ -13,7 +13,7 @@ function FooterTop() {
                 </div>
             </div>
             <div className='col-6 d-flex justify-content-end'>
-                <i class="bi bi-arrow-up-circle blue-self" onClick={GoTop}></i>
+                <i className="bi bi-arrow-up-circle blue-self" onClick={GoTop}></i>
             </div>
         </div>
     )
