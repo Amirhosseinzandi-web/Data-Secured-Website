@@ -6,6 +6,9 @@ body {
 a {
   text-decoration: none;
 }
+:root{
+  --primary-color : #0fb8e0
+}
 ul {
   margin: 0 !important;
   list-style: none;
@@ -70,11 +73,11 @@ nav > i {
   text-decoration: none;
 }
 .menu > li:last-child > a {
- border-radius: 4px;
- -webkit-border-radius: 4px;
- -moz-border-radius: 4px;
- -ms-border-radius: 4px;
- -o-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 .blue-bg {
   background-color: #0fb8e0 !important;
@@ -317,7 +320,8 @@ button {
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
 }
-.form-container input, textarea {
+.form-container input,
+textarea {
   backdrop-filter: blur(4px);
   background: rgba(0, 0, 0, 0.15);
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
@@ -326,7 +330,11 @@ button {
   padding: 0.5rem;
   resize: none;
 }
-
+.form-container input:focus,
+textarea:focus {
+  box-shadow: 0 0 12px 0 var(--primary-color);
+  outline: var(--primary-color);
+}
 .form-container > div:nth-of-type(1) > * {
   font-size: 56px;
   font-weight: 700;
